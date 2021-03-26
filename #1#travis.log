@@ -1,5 +1,5 @@
 Command line:
-"travis encrypt a7ac76d19a690a06fc08d1cb6907bf6b780c3a97"
+"travis encrypt 6a94802645d76f458d6ba5682c48c28bff35ba52"
 
 
    ________                                 __
@@ -25,7 +25,7 @@ Command line:
 
      There is absolutely no warranty on any results obtained from TRAVIS.
 
-  #  Running on aigulubuntu at Fri Mar 26 08:50:31 2021 (PID 5993)
+  #  Running on aigulubuntu at Thu Mar 25 18:57:25 2021 (PID 6682)
   #  Running in /home/aigul/Desktop/aigulsall/aigul/uni/testing/testing_lab1
   #  Code version: Jan 01 2019,  Compiled at Mar 22 2020, 16:01:08,  Compiler "9.3.0", GCC 9.3.0
   #  Target platform: Linux,  Compile flags: DEBUG_ARRAYS 
@@ -35,9 +35,9 @@ Command line:
 
  >>> Please use a color scheme with dark background or specify "-nocolor"! <<<
 
-    Loading configuration from /home/aigul/.travis.conf ...
+    No configuration file found.
+    Writing default configuration to /home/aigul/.travis.conf ...
 
-[Renaming existing File input.txt to #1#input.txt ...OK.]
 Unknown parameter: "encrypt".
 
     List of supported command line options:
