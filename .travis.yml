@@ -8,11 +8,16 @@ script:
     - qmake 
     - make
     - ./tests/tests
+addons:
+  sonarcloud:
+    organization: "khuaigul"
+    token:
+      secure: $SONAR_TOKEN
 
 after_success:
     - coveralls --root . -E ".*external.*" -E ".*tests.*"
-    #- build-wrapper-linux-x86-64 --out-dir bw-output make clean all
-    #- sonar-scanner
+    - build-wrapper-linux-x86-64 --out-dir bw-output make clean all
+    - sonar-scanner
 
 cache:
     directories:
