@@ -12,7 +12,7 @@ addons:
   sonarcloud:
     organization: "khuaigul"
     token:
-      secure: $(SONAR_TOKEN)
+      secure: $SONAR_TOKEN
 
 after_success:
     - coveralls --root . -E ".*external.*" -E ".*tests.*"
